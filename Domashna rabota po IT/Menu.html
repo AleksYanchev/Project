@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="bg" http-equiv="Content-Language">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <title>Untitled 2</title>
+    <script type="text/javascript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+  </head>
+  <body
+onload="FP_preloadImgs(/*url*/'button43.gif',/*url*/'button44.gif',/*url*/'button1A.gif',/*url*/'button1B.gif',/*url*/'button3.gif',/*url*/'button4.gif',/*url*/'button9.gif',/*url*/'buttonA.gif',/*url*/'button13.gif',/*url*/'button14.gif',/*url*/'button1A1.gif',/*url*/'button1B1.gif',/*url*/'button2D.gif',/*url*/'button2E.gif')"
+    style="background-color: #FFFFCC">
+    <p>
+      <a href="nachalo.html" target="main">
+        <img id="img14" alt="Начало"
+          onmousedown="FP_swapImg(1,0,/*id*/'img14',/*url*/'button2E.gif')"
+onmouseout="FP_swapImg(0,0,/*id*/'img14',/*url*/'button2C.gif')"
+          onmouseover="FP_swapImg(1,0,/*id*/'img14',/*url*/'button2D.gif')"
+onmouseup="FP_swapImg(0,0,/*id*/'img14',/*url*/'button2D.gif')"
+          src="button2C.gif" style="border: 0" width="120" height="24"><!-- MSComment="ibutton" fp-style="fp-btn: Soft Capsule 1; fp-transparent: 1" fp-title="Начало" --></a></p>
+    <p>
+      <a href="Banica.html" target="main">
+        <img id="img2" alt="Баница"
+          onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'button44.gif')"
+onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'button42.gif')"
+          onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'button43.gif')"
+          onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'button43.gif')"
+          src="button42.gif" style="border: 0" width="120" height="24"><!-- MSComment="ibutton" fp-style="fp-btn: Soft Capsule 1; fp-transparent: 1" fp-title="Баница" --></a></p>
+    <p>
+      <a href="Tarator.html" target="main">
+        <img id="img10" alt="Таратор"
+          onmousedown="FP_swapImg(1,0,/*id*/'img10',/*url*/'button4.gif')"
+onmouseout="FP_swapImg(0,0,/*id*/'img10',/*url*/'button2.gif')"
+          onmouseover="FP_swapImg(1,0,/*id*/'img10',/*url*/'button3.gif')"
+          onmouseup="FP_swapImg(0,0,/*id*/'img10',/*url*/'button3.gif')"
+          src="button2.gif" style="border: 0" width="120" height="24"><!-- MSComment="ibutton" fp-style="fp-btn: Soft Capsule 1; fp-transparent: 1" fp-title="Таратор" --></a></p>
+    <p>
+      <a href="Musaka.html" target="main">
+        <img id="img9" alt="Мусака"
+          onmousedown="FP_swapImg(1,0,/*id*/'img9',/*url*/'button1B.gif')"
+onmouseout="FP_swapImg(0,0,/*id*/'img9',/*url*/'button19.gif')"
+          onmouseover="FP_swapImg(1,0,/*id*/'img9',/*url*/'button1A.gif')"
+          onmouseup="FP_swapImg(0,0,/*id*/'img9',/*url*/'button1A.gif')"
+          src="button19.gif" style="border: 0" width="120" height="24"><!-- MSComment="ibutton" fp-style="fp-btn: Soft Capsule 1; fp-transparent: 1" fp-title="Мусака" --></a></p>
+    <p>
+      <a href="Bob%20s%20nadenica.html" target="main">
+        <img id="img11" alt="Боб с наденица"
+          onmousedown="FP_swapImg(1,0,/*id*/'img11',/*url*/'buttonA.gif')"
+onmouseout="FP_swapImg(0,0,/*id*/'img11',/*url*/'button8.gif')"
+          onmouseover="FP_swapImg(1,0,/*id*/'img11',/*url*/'button9.gif')"
+          onmouseup="FP_swapImg(0,0,/*id*/'img11',/*url*/'button9.gif')"
+          src="button8.gif" style="border: 0" width="120" height="24"><!-- MSComment="ibutton" fp-style="fp-btn: Soft Capsule 1; fp-transparent: 1" fp-title="Боб с наденица" --></a></p>
+    <p>
+      <a href="Shkembe%20Chorba.html" target="main">
+        <img id="img12" alt="Шкембе чорба"
+          onmousedown="FP_swapImg(1,0,/*id*/'img12',/*url*/'button14.gif')"
+onmouseout="FP_swapImg(0,0,/*id*/'img12',/*url*/'button12.gif')"
+          onmouseover="FP_swapImg(1,0,/*id*/'img12',/*url*/'button13.gif')"
+onmouseup="FP_swapImg(0,0,/*id*/'img12',/*url*/'button13.gif')"
+          src="button12.gif" style="border: 0" width="120" height="24"><!-- MSComment="ibutton" fp-style="fp-btn: Soft Capsule 1; fp-transparent: 1" fp-title="Шкембе чорба" --></a></p>
+    <p>
+      <a href="Patatnik.html" target="main">
+        <img id="img13" alt="Пататник"
+          onmousedown="FP_swapImg(1,0,/*id*/'img13',/*url*/'button1B1.gif')"
+onmouseout="FP_swapImg(0,0,/*id*/'img13',/*url*/'button20.gif')"
+          onmouseover="FP_swapImg(1,0,/*id*/'img13',/*url*/'button1A1.gif')"
+onmouseup="FP_swapImg(0,0,/*id*/'img13',/*url*/'button1A1.gif')"
+          src="button20.gif" style="border: 0" width="120" height="24"><!-- MSComment="ibutton" fp-style="fp-btn: Soft Capsule 1; fp-transparent: 1" fp-title="Пататник" --></a></p>
+  </body>
+</html>
